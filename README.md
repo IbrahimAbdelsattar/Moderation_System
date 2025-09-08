@@ -1,60 +1,90 @@
-# Content Moderation System
+# 🛡️ Content Moderation System  
 
-## 🚀 Project Overview
-The **Content Moderation System** is an AI-powered application designed to automatically detect and classify inappropriate or harmful content in text. Using Natural Language Processing (NLP) techniques, this system ensures online platforms remain safe and respectful by flagging offensive, abusive, or unwanted messages in real-time.  
-
-This project leverages a **Naive Bayes machine learning model** combined with **TF-IDF vectorization** to accurately analyze and predict the nature of textual content.  
+A **Content Moderation System** that automatically detects and classifies toxic comments using **Machine Learning** and **Natural Language Processing (NLP)**.  
+This project was developed as part of **IEEE Camp Vol 2.0 Final Project** by **Ibrahim Abdelsattar** and **Ali Ehab**.  
 
 ---
 
-## 🧠 Core Idea
-The main idea behind this project is to **automate the process of content moderation**, which is traditionally manual, time-consuming, and error-prone. By using a machine learning approach:
+## 🚀 Why This Project is Important?
+With the huge increase in online content (social media, forums, communities), harmful or offensive comments can negatively impact users.  
+A **Content Moderation System** helps in:  
+- Filtering **toxic / offensive content**.  
+- Creating a **safe and positive online environment**.  
+- Reducing hate speech, bullying, and threats in digital platforms.  
 
-- The system can **scan and classify thousands of messages instantly**.
-- It reduces the **risk of human bias** in moderation.
-- It improves the **user experience** by keeping platforms safe and professional.
-
----
-
-## 🔍 How It Works
-1. **Data Preprocessing:** The text is cleaned and prepared for analysis.
-2. **Feature Extraction:** Using **TF-IDF Vectorizer**, the text is transformed into numerical features that the model can understand.
-3. **Prediction:** The **Naive Bayes model** classifies the text into categories such as safe or inappropriate.
-4. **Output:** The system flags or highlights inappropriate content for review or automatic action.
+This type of system can be integrated into **social media apps, blogs, or discussion platforms** to improve user experience.  
 
 ---
 
-## ⚡ Why This Project Is Important
-- **Safety:** Helps maintain a safe online environment by detecting harmful or offensive content.
-- **Efficiency:** Automates a labor-intensive moderation process, saving time and resources.
-- **Scalability:** Capable of handling large volumes of content without human intervention.
-- **Adaptability:** The model can be retrained to adapt to new types of content and platform policies.
+## 📊 Dataset
+We used the **Toxic Comment Classification Challenge dataset**.  
+It contains comments labeled into **6 categories**:  
+- Toxic  
+- Severe Toxic  
+- Obscene  
+- Threat  
+- Insult  
+- Identity Hate  
 
 ---
 
-## 🛠️ Technologies Used
-- **Python**
-- **Scikit-learn** (Naive Bayes, TF-IDF Vectorizer)
-- **Streamlit** (for deployment and user interface)
-- **Pandas & Numpy** (data handling)
-- **NLTK / Spacy** (text preprocessing)
+## 🛠️ Solution Steps
+
+### 1. Data Exploration & Preprocessing
+- Performed **EDA** to understand distribution of toxic classes.  
+- Cleaned text (removing stopwords, punctuation, lowercasing).  
+- Applied **tokenization and stemming**.  
+
+### 2. Feature Engineering
+- Used **TF-IDF Vectorization** to convert text into numerical features.  
+
+### 3. Model Training
+- Tested multiple algorithms:
+  - Logistic Regression  
+  - Naive Bayes  
+  - Deep Neural Network (DNN)  
+
+- After evaluation, **Naive Bayes with TF-IDF** gave the best balance of **accuracy and efficiency**.  
+
+### 4. Evaluation
+- Used **MultilabelStratifiedKFold Cross-Validation**.  
+- Achieved:  
+  - **Accuracy:** ~91.2%  
+  - Strong results across most categories, with improvement opportunities in low-frequency labels like *Threat* and *Identity Hate*.  
+
+### 5. Deployment
+- Saved the best model (`naive_bayes_model.pkl`) and the **TF-IDF vectorizer** (`tfidf_vectorizer.pkl`).  
+- Built a **Streamlit Web App** for interactive testing.  
+- Integrated with **GitHub** for hosting and easy access.  
 
 ---
 
-## 🎯 Use Cases
-- Social media platforms to filter abusive comments.
-- Online forums to maintain respectful discussions.
-- Chat applications to monitor and flag inappropriate messages.
-- E-commerce reviews moderation to ensure quality feedback.
+## ⚡ Challenges & Solutions
+### 1. **Imbalanced Dataset**
+- Some categories like *Threat* and *Identity Hate* had very few examples.  
+- Solution: Used **Stratified K-Fold Cross Validation** to ensure fair distribution across folds.  
+
+### 2. **Large TF-IDF Vectorizer File (36MB)**
+- Problem: GitHub restricts files >25MB.  
+- Solution:  
+  - Option 1: Upload model to **Google Drive / Hugging Face** and load dynamically.  
+  - Option 2: Re-train vectorizer inside deployment pipeline.  
+
+### 3. **Evaluation Metrics**
+- Accuracy alone wasn’t enough due to imbalanced data.  
+- Solution: Used **F1-score (micro/macro)** for better insight into performance.  
 
 ---
 
-## 📈 Future Improvements
-- Implement **deep learning models** (e.g., BERT) for higher accuracy.
-- Add **multi-language support** for global platforms.
-- Introduce **real-time monitoring** for live chat applications.
-- Develop a **dashboard** for analytics and moderation insights.
+## 💡 How to Use
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/content-moderation-system.git
+   cd content-moderation-system
+2. Install dependencies:
+  pip install -r requirements.txt
 
----
+4. Run the Streamlit app:
+  streamlit run app.py
 
-**This project showcases the power of AI in improving online safety, automating moderation tasks, and enhancing user experience.**
+👨‍💻 Developed by Ibrahim Abdelsattar (Junior Data Scientist) & Ali Ehab
