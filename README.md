@@ -1,82 +1,113 @@
 <br/><br/>
 
 <!-- Animated Title -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&pause=1000&color=7C3AED&center=true&vCenter=true&width=800&lines=Moderation System+%F0%9F%9A%80;Enterprise+Data+Science+%26+AI;Interactive+Analytics+%26+ML;Built+by+Ibrahim+Abdelsattar" alt="Typing SVG"/>
-</a>
-
-<br/>
+<p align="center">
+  <a href="#">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=34&pause=1000&color=EF4444&center=true&vCenter=true&width=820&lines=Moderation+System+%F0%9F%9B%A1%EF%B8%8F;Multi-Label+Toxicity+%26+Hate+Speech+Classification;6-Category+Safety+Engine+%C2%B7+TF-IDF+%2B+Naive+Bayes;Real-Time+Content+Filtering+%C2%B7+Streamlit+Studio" alt="Typing SVG" />
+  </a>
+</p>
 
 <p align="center">
-  <b>Enterprise-Grade Data Science & Software Engineering Solution</b><br/>
-  <i>NLP (NLTK/spaCy) · Pandas & NumPy · Scikit-Learn · Streamlit</i>
+  <b>Production-Grade Multi-Label Content Moderation & Toxic Comment Intelligence Engine</b><br/>
+  <i>Multi-Label Classification · Toxic / Obscene / Threat / Insult / Hate Speech Detection · Real-Time Streamlit Interface · Batch CSV Scoring</i>
 </p>
 
 <br/>
 
-<!-- Badges Row -->
+<!-- Badges Row 1: Core Technologies -->
 <p align="center">
-  <img src="https://img.shields.io/badge/NLP%20(NLTK%2FspaCy)-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas%20&%20NumPy-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Scikit-Learn-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-Academic-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-1.3+-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-Learn" />
+  <img src="https://img.shields.io/badge/NLP-NLTK_Stemming-009688?style=for-the-badge&logo=natural-language-processing&logoColor=white" alt="NLTK" />
+  <img src="https://img.shields.io/badge/Classifier-Multinomial_Naive_Bayes-0284C7?style=for-the-badge&logo=google-scholar&logoColor=white" alt="Naive Bayes" />
+  <img src="https://img.shields.io/badge/Feature_Extraction-TF--IDF_Sparse-7C3AED?style=for-the-badge&logo=apache-spark&logoColor=white" alt="TF-IDF" />
+</p>
+
+<!-- Badges Row 2: UI & Deployment -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Interface-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/Pandas-Data_Frames-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/DevContainer-VS_Code-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="DevContainer" />
+  <img src="https://img.shields.io/badge/Serialization-Joblib-4B5563?style=for-the-badge&logo=subversion&logoColor=white" alt="Joblib" />
+  <img src="https://img.shields.io/badge/Status-Production_Ready-brightgreen?style=for-the-badge" alt="Status" />
+</p>
+
+<!-- Badges Row 3: Standards & License -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Dataset-Toxic_Comment_Classification-D97706?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
 </p>
 
 <br/>
 
-<!-- Quick Links -->
+<!-- Quick Navigation Bar -->
 <p align="center">
-  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-7C3AED?style=flat-square"/></a>
+  <a href="#-overview"><img src="https://img.shields.io/badge/📌-Overview-EF4444?style=flat-square" alt="Overview" /></a>
   &nbsp;
-  <a href="#-core-features"><img src="https://img.shields.io/badge/🔥-Features-E11D48?style=flat-square"/></a>
+  <a href="#-problem-statement--safety-solution"><img src="https://img.shields.io/badge/🎯-Problem%20%26%20Solution-E11D48?style=flat-square" alt="Problem" /></a>
   &nbsp;
-  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square"/></a>
+  <a href="#-multi-label-categories"><img src="https://img.shields.io/badge/🔥-Categories-D97706?style=flat-square" alt="Categories" /></a>
   &nbsp;
-  <a href="#-technical-stack"><img src="https://img.shields.io/badge/⚙️-Tech%20Stack-16A34A?style=flat-square"/></a>
+  <a href="#%EF%B8%8F-system-architecture"><img src="https://img.shields.io/badge/🏗️-Architecture-0891B2?style=flat-square" alt="Architecture" /></a>
   &nbsp;
-  <a href="#-getting-started"><img src="https://img.shields.io/badge/🚀-Getting%20Started-F59E0B?style=flat-square"/></a>
+  <a href="#-machine-learning-pipeline"><img src="https://img.shields.io/badge/🔬-ML%20Pipeline-7C3AED?style=flat-square" alt="Pipeline" /></a>
+  &nbsp;
+  <a href="#-technical-stack"><img src="https://img.shields.io/badge/⚙️-Tech%20Stack-059669?style=flat-square" alt="Stack" /></a>
+  &nbsp;
+  <a href="#-quickstart--execution"><img src="https://img.shields.io/badge/🚀-Quickstart-4F46E5?style=flat-square" alt="Quickstart" /></a>
 </p>
-
-<br/>
 
 ---
 
 ## 📌 Overview
 
-**Moderation System** is an advanced software and data science repository engineered by **Ibrahim Abdelsattar**. It implements end-to-end data processing pipelines, predictive machine learning models, and production-ready code structures tailored for analytical precision and operational reliability.
+**Moderation System** is an automated, high-throughput Natural Language Processing (NLP) intelligence platform designed to detect and classify toxic online content, hate speech, and harassment across digital platforms. Engineered to solve the challenge of automated community moderation, the system evaluates incoming text simultaneously across **six distinct toxicity dimensions**.
 
-> Designed for seamless integration, high scalability, and robust computational performance.
+Rather than relying on brittle keyword blocklists that are easily evaded through obfuscation, this platform combines **NLTK morphological text normalization** (Porter Stemming, URL/mention cleaning, stopword filtering) with a high-dimensional **TF-IDF sparse vectorizer** and a calibrated **Multi-Output Multinomial Naive Bayes model**.
+
+```
+                   ┌────────────────────────────────────────────────────────┐
+                   │             Moderation System Engine                   │
+                   │                                                        │
+[ User Comment / ]─┼──> [ Text Normalizer ] ──> Stemmed Tokens ─────────────┼──> [ Moderation Report ]
+[ Batch CSV File ] │             │                                          │    - Multi-Label Verdict
+                   │             ▼                                          │    - Probability Gauges (0-100%)
+                   │    [ TF-IDF Vectorizer ] ──> Sparse Feature Vector     │    - Dynamic Threshold Filter
+                   │             │                (n-gram vocabulary)       │    - Flagged Obscenity Badges
+                   │             ▼                                          │    - CSV Exportable Audit Log
+                   │    [ Naive Bayes Model ] ──> 6-Class Probability Array │
+                   └────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 🎯 Problem & Solution Architecture
+## 🎯 Problem Statement & Safety Solution
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ❌ The Challenge
+### ❌ The Digital Moderation Crisis
 
-Traditional analytical approaches face critical operational limitations:
+Online communities, gaming platforms, and social forums face severe trust & safety challenges:
 
-- 📉 Manual data wrangling and non-standardized preprocessing
-- 🔮 Lack of feature attribution and model explainability
-- ⚠️ Unoptimized hyperparameters leading to sub-optimal accuracy
-- 🔄 Inefficient deployment workflows and missing pipeline automation
+- 🌊 **Massive Comment Volume**: Millions of comments per day overwhelm human moderation teams.
+- 🎭 **Nuanced Harassment**: Toxicity takes diverse forms (threats, identity attacks, insults) requiring multi-label rather than binary flags.
+- 🕳️ **Evasion of Naive Keyword Filters**: Bad actors bypass static word filters through subtle variations, leetspeak, and slang.
+- ⏱️ **Latency Constraints**: Live chat systems require sub-10ms classification latencies to filter toxic comments before publication.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-### ✅ Our Solution
+### ✅ The Moderation System Solution
 
-| Challenge | Implemented Solution |
-|-----------|----------------------|
-| Raw Data Noise | Automated cleaning & feature encoding |
-| Low Accuracy | Tuned ML ensembles & robust evaluation |
-| Deployment Gaps | Modular CLI/Web interfaces & reproducible scripts |
-| Missing Insights | Visual metric plots & structured reporting |
+| Challenge | Moderation System Architectural Solution |
+| :--- | :--- |
+| **Granular Safety Dimensions** | Independent simultaneous evaluation across **6 critical labels** (`toxic`, `severe_toxic`, `obscene`, `threat`, `insult`, `identity_hate`). |
+| **Sub-Millisecond Speed** | Ultra-efficient **TF-IDF + Multinomial Naive Bayes** inference delivering real-time responses ($<5\text{ms}$). |
+| **Robust Normalization** | **Regex URL & Mention Stripping + Porter Stemmer** preventing trivial syntactic evasion. |
+| **Calibrated Thresholds** | Interactive UI slider enabling custom sensitivity tuning per toxicity tier. |
+| **Batch Enterprise Auditing** | One-click CSV batch analysis supporting up to tens of thousands of rows with exportable scoring. |
 
 </td>
 </tr>
@@ -84,154 +115,196 @@ Traditional analytical approaches face critical operational limitations:
 
 ---
 
-## 🔥 Core Features
+## 🔥 Multi-Label Categories
 
 <table>
 <tr>
+<td width="33%" align="center" valign="top">
 
-<td align="center" width="33%">
+### ⚠️ Toxic & Severe
 <br/>
-<b>🤖 Machine Learning Models</b><br/><br/>
-• Deep Neural Network (DNN)<br/>• Logistic Regression<br/>• Random Forest<br/>• Support Vector Machine (SVM)<br/>
-Automated Hyperparameter Tuning<br/>
-Cross-Validation Pipeline<br/><br/>
+<b>General Maliciousness</b>
+<p align="left">
+• <code>toxic</code>: Hostile, rude, or aggressive text likely to drive users away.<br/>
+• <code>severe_toxic</code>: Extremely aggressive, threatening, or excessively hateful language.
+</p>
+
 </td>
-<td align="center" width="33%">
+<td width="33%" align="center" valign="top">
+
+### 🔞 Obscene & Threat
 <br/>
-<b>📊 Data Preprocessing & EDA</b><br/><br/>
-Automated Missing Value Imputation<br/>
-Feature Engineering & Scaling<br/>
-Outlier Detection & Removal<br/>
-Exploratory Data Analysis Plots<br/><br/>
+<b>Vulgarity & Endangerment</b>
+<p align="left">
+• <code>obscene</code>: Vulgar, profane, or sexually offensive text.<br/>
+• <code>threat</code>: Explicit or implicit declarations of intent to cause physical injury or harm.
+</p>
+
 </td>
-<td align="center" width="33%">
+<td width="33%" align="center" valign="top">
+
+### 🛑 Insult & Identity Hate
 <br/>
-<b>🎯 Production Guardrails</b><br/><br/>
-Strict Input Validation<br/>
-Reproducible Seed Setting<br/>
-Model Artifact Persistence<br/>
-Comprehensive Logging<br/><br/>
+<b>Targeted Harassment</b>
+<p align="left">
+• <code>insult</code>: Disrespectful, humiliating, or demeaning statements targeting individuals.<br/>
+• <code>identity_hate</code>: Hate speech targeting race, religion, gender, ethnicity, or sexual orientation.
+</p>
+
 </td>
 </tr>
 </table>
 
 ---
 
-## 🏗️ System Architecture & Data Flow
+## 🏗️ System Architecture
 
-<br/>
+The architecture provides both an interactive visual diagnostic laboratory via **Streamlit** and a reusable serialized inference bundle for backend microservice integration.
 
 ```mermaid
-flowchart LR
-    A["📥 Data Ingestion
-Raw Datasets / Inputs"] --> B["🧹 Preprocessing & Cleaning
-Feature Scaling & Encoding"]
-    B --> C["⚙️ Feature Engineering
-Domain Transformation"]
-    C --> D["🤖 Machine Learning Pipeline
-Model Training & Evaluation"]
-    D --> E["📊 Predictive Output & Metrics
-Interactive Dashboard / Reports"]
-    style A fill:#1e1b4b,color:#a5b4fc
-    style B fill:#312e81,color:#c7d2fe
-    style D fill:#1e3a5f,color:#93c5fd
-    style E fill:#14532d,color:#86efac
+graph TD
+    subgraph ClientLayer["Interaction & Presentation (Streamlit)"]
+        UI["Web Dashboard (app.py)"]
+        TextInput["Single Text Analyzer"]
+        CSVUpload["Batch CSV File Uploader"]
+        Thresholds["Dynamic Sensitivity Slider Controls"]
+    end
+
+    subgraph PreprocessingCore["Text Normalization & NLP Engine"]
+        RegexCleaner["Regex Cleaner (URLs, Mentions, Punctuation)"]
+        Tokenizer["NLTK Word Tokenizer"]
+        StopwordFilter["Stopwords Removal (NLTK Corpus)"]
+        Stemmer["Porter Stemmer (Morphological Reduction)"]
+    end
+
+    subgraph MLCore["Vectorization & Statistical Inference"]
+        TFIDF["TF-IDF Vectorizer (tfidf_vectorizer.pkl)"]
+        NaiveBayes["Multi-Output Naive Bayes (naive_bayes_model.pkl)"]
+        Calibrator["Multi-Label Decision Boundary Engine"]
+    end
+
+    subgraph OutputView["Visual Analytics & Reporting"]
+        ProbBars["Interactive Probability Bar Charts"]
+        AlertBadges["Color-Coded Status Badges"]
+        CSVExport["Exportable Scored Dataset (.csv)"]
+    end
+
+    %% Flow connections
+    TextInput --> RegexCleaner
+    CSVUpload --> RegexCleaner
+    
+    RegexCleaner --> Tokenizer
+    Tokenizer --> StopwordFilter
+    StopwordFilter --> Stemmer
+    
+    Stemmer -->|"Cleaned Token Stream"| TFIDF
+    TFIDF -->|"Sparse Term-Weight Vector"| NaiveBayes
+    
+    NaiveBayes --> Calibrator
+    Thresholds --> Calibrator
+    
+    Calibrator --> ProbBars
+    Calibrator --> AlertBadges
+    Calibrator --> CSVExport
 ```
+
+---
+
+## 🔬 Machine Learning Pipeline
+
+### 1. Linguistic Preprocessing Pipeline
+Every input string undergoes standardized morphological normalization:
+1. **URL & Handle Stripping**: Eliminates `https?://\S+`, `www.\S+`, and `@username` entities.
+2. **Special Character Pruning**: Strips punctuation and digits while preserving word tokens.
+3. **Case Folding**: Canonicalizes text to lowercase.
+4. **NLTK Stopword Filtering**: Removes high-frequency syntactic noise words without semantic toxicity value.
+5. **Porter Stemming**: Truncates words to root stems (e.g., *"threatening"* $\to$ *"threaten"*).
+
+### 2. Feature Extraction & Classification
+- **TF-IDF Matrix**: Maps vocabulary n-grams into a high-dimensional sparse coordinate space weighted by Term Frequency-Inverse Document Frequency.
+- **Multinomial Naive Bayes Formulation**:
+  $$P(y_k \mid \mathbf{x}) \propto P(y_k) \prod_{i=1}^{n} P(w_i \mid y_k)^{x_i}$$
+  Where $y_k \in \{\text{toxic}, \text{severe\_toxic}, \text{obscene}, \text{threat}, \text{insult}, \text{identity\_hate}\}$.
+- **Decision Rule**: A label $k$ is flagged if and only if $P(y_k \mid \mathbf{x}) \ge \theta_k$, where $\theta_k$ is adjustable via the UI sensitivity sliders (default $\theta = 0.50$).
 
 ---
 
 ## ⚙️ Technical Stack
 
-<div align="center">
-
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| **NLP (NLTK/spaCy)** | Core Framework / Library | Primary computing and analytical engine |
-| **Pandas & NumPy** | Core Framework / Library | Primary computing and analytical engine |
-| **Scikit-Learn** | Core Framework / Library | Primary computing and analytical engine |
-| **Streamlit** | Core Framework / Library | Primary computing and analytical engine |
-
-</div>
+| Component | Technology | Purpose & Implementation |
+| :--- | :--- | :--- |
+| **Interactive UI** | **Streamlit** | Low-latency reactive web application with dual Single-Text and Batch-File tabs |
+| **Machine Learning** | **Scikit-Learn** | Pipeline implementation of TF-IDF Vectorizer and Multinomial Naive Bayes |
+| **NLP Morphological Core** | **NLTK** | Word tokenization, Porter Stemmer, and English stopword dictionaries |
+| **Data Handling** | **Pandas & NumPy** | High-performance vector arithmetic and CSV batch parsing |
+| **Serialization** | **Joblib** | Serialization and rapid deserialization of trained model artifacts |
+| **Container Environment** | **VS Code DevContainer** | Pre-configured reproducibility environment |
 
 ---
 
-
-## 📊 Performance & Evaluation Metrics
-
-<div align="center">
-
-| Metric | Score / Value | Description |
-|:------:|:-------------:|-------------|
-| **Accuracy** | `91.18%` | Verified evaluation output from notebook/script |
-| **Accuracy** | `91.24%` | Verified evaluation output from notebook/script |
-| **Accuracy** | `91.29%` | Verified evaluation output from notebook/script |
-
-</div>
-
----
-
-
-## 📁 Directory Structure
-
-<details>
-<summary><b>📂 Click to expand repository tree</b></summary>
+## 📁 Repository Structure
 
 ```
 Moderation_System/
-│   ├── devcontainer.json
-├── Moderation System.txt
-├── README.md
-├── app.py
-├── moderation-system.ipynb
-├── naive_bayes_model.pkl
-├── requirements.txt
-├── sample_submission.csv
-├── tfidf_vectorizer.pkl
+├── 📄 app.py                       # Streamlit web application & inference routines
+├── 📄 moderation-system.ipynb      # Training notebook (EDA, training, validation, export)
+├── 📄 naive_bayes_model.pkl        # Serialized trained Multi-Output Naive Bayes model
+├── 📄 tfidf_vectorizer.pkl         # Serialized high-dimensional TF-IDF vectorizer
+├── 📄 sample_submission.csv        # Benchmark test predictions format
+├── 📄 requirements.txt             # Python dependencies
+├── 📁 .devcontainer/               # VS Code DevContainer development configuration
+└── 📄 README.md                    # Project documentation
 ```
-
-</details>
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quickstart & Execution
 
 ### Prerequisites
+- **Python**: 3.10 or higher
+- **Virtual Environment**: Recommended for dependency isolation
 
-- Python 3.10+ (or Node.js 18+ for web apps)
-- Git & Virtualenv
+---
 
-### Installation & Execution
+### 1. Installation
 
 ```bash
-# 1. Clone the repository
+# 1. Clone repository
 git clone https://github.com/IbrahimAbdelsattar/Moderation_System.git
 cd Moderation_System
 
-# 2. Set up virtual environment (Python)
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+# 2. Create virtual environment
+python -m venv venv
+source venv/bin/activate        # On Windows: .\venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
-
-# 4. Launch project execution
-streamlit run app.py
+pip install streamlit scikit-learn nltk pandas joblib
 ```
 
 ---
 
-## 👤 Author & Contact
+### 2. Running the Moderation Studio
 
-<div align="center">
+```bash
+streamlit run app.py
+```
+
+*The interactive studio will open automatically at `http://localhost:8501`.*
+
+---
+
+## 👥 Author & Connect
 
 **Ibrahim Abdelsattar**  
-*Data Scientist & AI Specialist · MTI University (CS & AI, GPA 3.5)*
+*AI Engineer & Machine Learning Specialist*
 
-[Email](mailto:ibrahimabdelsattar042@gmail.com) · [GitHub](https://github.com/IbrahimAbdelsattar) · [LinkedIn](https://linkedin.com/in/ibrahim-abdelsattar)
+- 🌐 **GitHub**: [@IbrahimAbdelsattar](https://github.com/IbrahimAbdelsattar)
+- 💼 **LinkedIn**: [Ibrahim Abdelsattar](https://www.linkedin.com/in/ibrahim-abdelsattar/)
+- 📧 **Email**: [ibrahimabdelsattar042@gmail.com](mailto:ibrahimabdelsattar042@gmail.com)
 
-<br/>
+---
 
-<img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Maintained%20by-Ibrahim%20Abdelsattar-7C3AED?style=for-the-badge"/>
-
-</div>
+<p align="center">
+  <sub>Engineered for digital safety, trust, and automated content moderation. © 2026 Moderation System.</sub>
+</p>
