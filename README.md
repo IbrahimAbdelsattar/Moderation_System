@@ -28,6 +28,35 @@ Run from the repository root with both model artifacts present. NLTK resources m
 
 Preserve preprocessing and label order across training and deployment. Automated flags should be reviewed in context; the README does not claim a measured production accuracy.
 
+## UML diagrams
+
+### Main workflow
+
+The moderation interface handles one comment or a batch using shared cleanup, TF-IDF features, and a multi-label classifier.
+
+```mermaid
+sequenceDiagram
+    actor User
+    participant App as Streamlit moderation UI
+    participant Clean as NLTK text cleanup
+    participant Vector as TF-IDF vectorizer
+    participant Model as Saved Naive Bayes model
+    User->>App: Enter comment or upload comment batch
+    loop Each submitted comment
+        App->>Clean: Normalize and preprocess text
+        Clean-->>App: Cleaned text
+        App->>Vector: transform
+        Vector-->>App: Sparse text features
+        App->>Model: predict labels
+        Model-->>App: Six toxicity-label outputs
+    end
+    App-->>User: Display labeled results
+    opt Batch export
+        User->>App: Request CSV download
+        App-->>User: Export labeled comments
+    end
+```
+
 ## Getting started
 
 ```bash
